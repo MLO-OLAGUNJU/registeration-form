@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.right {
+  height: 470px;
+  width: 350px;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  height: 400px;
+  width: 350px;
+  background: white;
+  padding: 20px 50px;
+}
+
+.form {
+  background: white;
+  font-family: inherit;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.login {
+  font-family: inherit;
+  color: #ff1c5b;
+  font-weight: 600;
+}
+
+.Continuebtn {
+  margin-top: 5px;
+  padding: 5px 20px;
+  width: 100%;
+  height: 35px;
+  border: solid #ff1c5b;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: black;
+}
+
+.continue {
+  color: black;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.or {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.email {
+  margin-top: 5px;
+  display: block;
+}
+
+.address {
+  font-size: 15px;
+}
+
+.email-input {
+  width: 100%;
+  height: 35px;
+  border: solid #ff1c5b;
+  padding: 10px;
+}
+
+.Passw {
+  margin-top: 5px;
+  display: block;
+}
+
+.pw {
+  font-size: 15px;
+}
+
+.pw-input {
+  width: 100%;
+  height: 35px;
+  border: solid #ff1c5b;
+  padding: 10px;
+}
+
+::placeholder {
+  font-size: 15px;
+  color: rgb(163, 163, 163);
+}
+
+.text {
+  font-size: px;
+}
+
+.agree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bumtext {
+  font-size: 13px;
+}
+
+.bumtextspan {
+  font-family: inherit;
+  color: #ff1c5b;
+  font-weight: 600;
+}
+
+.regbtn {
+  background: #ff1c5b;
+  border: none;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .right {
+    margin-right: 60px;
+    height: 500px;
+    width: 90vw;
+  }
+
+  .main {
+    background-image: url(./gym-sign-up-form-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-position-y: -150px;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: black;
+  }
+
+  .left {
+    margin: 30px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: absolute;
+    right: 23px;
+  }
+}
+
+@media (max-width: 540px) {
+  .right {
+    margin-right: 60px;
+    height: 500px;
+    width: 90vw;
+  }
+
+  .main {
+    background-image: url(./gym-sign-up-form-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-position-y: -150px;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: black;
+  }
+
+  .left {
+    margin: 30px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: absolute;
+    right: 23px;
+  }
+}
+
+@media (max-width: 280px) {
+  .right {
+    margin-right: 60px;
+    height: 500px;
+    width: 90vw;
+  }
+
+  .main {
+    background-image: url(./gym-sign-up-form-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-position-y: -150px;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: black;
+    background-blend-mode: darken;
+  }
+
+  .left {
+    margin: 30px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: absolute;
+    right: 23px;
+    width: 230px;
+    padding: 10px;
+  }
+
+  .left h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .agree p{
+    font-size: 10px;
+  } 
+}
+
